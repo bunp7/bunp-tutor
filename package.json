@@ -2,7 +2,7 @@
   "name": "bunp-tutor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bunp7.github.io/bunp-tutor",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
@@ -15,6 +15,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "katex": "^0.12.0",
+    "netlify-cli": "^3.4.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -26,8 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "netlify deploy"
   },
   "eslintConfig": {
     "extends": [
