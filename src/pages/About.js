@@ -19,7 +19,7 @@ const personal = [
 const education = [
   {
     primary: "London School of Economics",
-    secondary: "MSc Quantitative Methods for Risk Management",
+    secondary: "MSc Quantitative Methods for Risk Management (Merit)",
     icon: faUniversity,
   },
   {

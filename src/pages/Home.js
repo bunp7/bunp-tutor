@@ -55,10 +55,9 @@ const Home = (props) => {
           Physics, Chemistry and Biology)
         </Typography>
         <Typography paragraph variant='body1'>
-          Currently, I'm studying in London School of Economics (LSE) doing MSc
-          Quantitative Methods in Risk Management (Department of Statistics).
-          Previously, I graduated from Imperial College London with a MEng in
-          Biomedical Engineering with First Class Honours.
+          I have recently graduated from the London School of Economics (LSE) with a MSc (Merit) in
+          Quantitative Methods in Risk Management (Department of Statistics) after previously graduating 
+          from Imperial College London with a MEng (First Class Honours) in Biomedical Engineering.
         </Typography>
       </Grid>
     </Grid>
